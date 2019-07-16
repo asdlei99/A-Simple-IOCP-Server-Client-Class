@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iocp log", "iocp log", "{C100145C-602F-4561-8129-93049B2362EC}"
+	ProjectSection(SolutionItems) = preProject
+		1.项目概述.txt = 1.项目概述.txt
+		2.系统概述.txt = 2.系统概述.txt
+		3.系统流程.txt = 3.系统流程.txt
+		4.修改完善.txt = 4.修改完善.txt
+		5.其他.txt = 5.其他.txt
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPClient", "IOCPClient\IOCPClient.vcxproj", "{155FCE38-1CBF-402F-83D0-354A3452D3B5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPServer", "IOCPServer\IOCPServer.vcxproj", "{DB28CC7D-77DD-4FB5-B278-ECD5BDA6377F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{155FCE38-1CBF-402F-83D0-354A3452D3B5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{155FCE38-1CBF-402F-83D0-354A3452D3B5}.Debug|Win32.Build.0 = Debug|Win32
+		{155FCE38-1CBF-402F-83D0-354A3452D3B5}.Release|Win32.ActiveCfg = Release|Win32
+		{155FCE38-1CBF-402F-83D0-354A3452D3B5}.Release|Win32.Build.0 = Release|Win32
+		{DB28CC7D-77DD-4FB5-B278-ECD5BDA6377F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DB28CC7D-77DD-4FB5-B278-ECD5BDA6377F}.Debug|Win32.Build.0 = Debug|Win32
+		{DB28CC7D-77DD-4FB5-B278-ECD5BDA6377F}.Release|Win32.ActiveCfg = Release|Win32
+		{DB28CC7D-77DD-4FB5-B278-ECD5BDA6377F}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01AA10D6-56E4-4CAC-83D3-7C1DE1185983}
+	EndGlobalSection
+EndGlobal

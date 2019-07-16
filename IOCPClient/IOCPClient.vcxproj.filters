@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="rc">
+      <UniqueIdentifier>{224bed33-d529-4178-9251-3765a5bda5c6}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{1ae7ccbd-89e0-4631-89c6-69a380ddc540}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{907c2e45-dc81-440f-8d37-77f300d395f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pre">
+      <UniqueIdentifier>{5c5d965b-9655-49ec-adc9-d446c7915ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{598faf14-c810-4b80-94f5-b4753c401df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io\overlapped_buffer">
+      <UniqueIdentifier>{1236dd9d-3c8a-4fa4-8e1a-73feba21011a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io\iocp">
+      <UniqueIdentifier>{52eccc70-6cdf-4ee0-90f4-0eb57a66dc4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io\mutex">
+      <UniqueIdentifier>{d0002405-8a6b-468b-956e-acf905612e01}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\header.bmp">
+      <Filter>rc</Filter>
+    </Image>
+    <Image Include="res\IOCPClient.ico">
+      <Filter>rc</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IOCPClient.rc">
+      <Filter>rc</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\IOCPClient.rc2">
+      <Filter>rc</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>rc</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPClient.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryEdit.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPClientDlg.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPSettingsDlg.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="MyListCtrl.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>pre</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPBuffer.h">
+      <Filter>io\overlapped_buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPS.h">
+      <Filter>io\iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="MyIOCP.h">
+      <Filter>io\iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>io\mutex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IOCPClient.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryEdit.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPClientDlg.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPSettingsDlg.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="MyListCtrl.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>pre</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPBuffer.cpp">
+      <Filter>io\overlapped_buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPS.cpp">
+      <Filter>io\iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="MyIOCP.cpp">
+      <Filter>io\iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>io\mutex</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
